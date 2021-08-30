@@ -1,0 +1,41 @@
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 5rem; 
+    margin-bottom: 1rem;     
+}
+.social-icons i{
+    font-size: 3rem;
+}
+.black{
+    background: black;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+.big-text{
+    animation: fadeIn ease 5s;
+    color: rgb(0, 162, 255) !important;
+    font-size: 15rem;
+    font-family: 'Monoton', cursive;
+}
+.heading-text{
+    font-size: 3rem;
+}
+.innerve{
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#events li,#schedule li{ 
+    font-size:1.5rem ;      
+}
+.fas{
+    font-size: 1.5rem;
+}
+span{
+    font-weight: bold;
+}
